@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">kyazoonga-android</string>
+	<string name="spinner_title1">Select Category</string>
+	<string name="spinner_title2"> -Qty- </string>
+	 <string-array name="cat_array">
+        <item>3 Day Season Pass (without Accomodation) - , Rs. 10700.00</item>
+        <item>3 Day Season Pass with Accomodation at Hotel IBIS - , Rs. 15600.00</item>
+        <item>3 Day Season Pass with Accomodation at Hotel Leela Kempinski  - , Rs. 22100.00</item>
+       
+    </string-array>
+    <string-array name="qty_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+       <item>4</item>
+       <item>5</item>
+       <item>6</item>
+    </string-array>
+</resources>

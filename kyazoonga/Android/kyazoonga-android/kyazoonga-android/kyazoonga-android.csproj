@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{66A7CA99-4837-4D3F-8C67-74AD3501A69B}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>kyazoongaandroid</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AssemblyName>kyazoonga-android</AssemblyName>
+    <TargetFrameworkVersion>v4.2</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <newfilesearch>OnLoadAutoInsert</newfilesearch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MainActivity1.cs" />
+    <Compile Include="ProductItem.cs" />
+    <Compile Include="Activity1.cs" />
+    <Compile Include="Cricket.cs" />
+    <Compile Include="Events.cs" />
+    <Compile Include="ImageAndSubtitle.cs" />
+    <Compile Include="ImageAndSubtitle_Adapter.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Setting.cs" />
+    <Compile Include="SplashActivity.cs" />
+    <Compile Include="Sports.cs" />
+    <Compile Include="Store.cs" />
+    <Compile Include="Theatre.cs" />
+    <Compile Include="ImageandTexts.cs" />
+    <Compile Include="eventsitems.cs" />
+    <Compile Include="eventcat.cs" />
+    <Compile Include="cart.cs" />
+    <Compile Include="round.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cricketicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cricketicong.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\eventicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\eventicong.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\sportsicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\sportsicong.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\storeicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\storeiconw.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\theatreartsicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\theatreartsicong.png" />
+    <AndroidResource Include="Resources\drawable\carticon.png" />
+    <AndroidResource Include="Resources\drawable\custom_btn_orange.xml" />
+    <AndroidResource Include="Resources\drawable\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable\ic_tab_events.xml" />
+    <AndroidResource Include="Resources\drawable\ic_tab_my_cricket.xml" />
+    <AndroidResource Include="Resources\drawable\ic_tab_sports.xml" />
+    <AndroidResource Include="Resources\drawable\ic_tab_store.xml" />
+    <AndroidResource Include="Resources\drawable\ic_tab_theatre.xml" />
+    <AndroidResource Include="Resources\drawable\kyazoongaogo.png" />
+    <AndroidResource Include="Resources\drawable\launcher.png" />
+    <AndroidResource Include="Resources\drawable\splash.png" />
+    <AndroidResource Include="Resources\drawable\splash_background.xml" />
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\layout\back.axml" />
+    <AndroidResource Include="Resources\layout\Clistview.axml" />
+    <AndroidResource Include="Resources\layout\ImageAndSubtitleItem.axml" />
+    <AndroidResource Include="Resources\layout\login.axml" />
+    <AndroidResource Include="Resources\layout\Mains.axml" />
+    <AndroidResource Include="Resources\layout\Tab.axml" />
+    <AndroidResource Include="Resources\values\Colors.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\drawable\beach.png" />
+    <AndroidResource Include="Resources\drawable\calendar.png" />
+    <AndroidResource Include="Resources\drawable\plants.png" />
+    <AndroidResource Include="Resources\drawable\seeds.png" />
+    <AndroidResource Include="Resources\drawable\shanghai.png" />
+    <AndroidResource Include="Resources\drawable\sportsicon.png" />
+    <AndroidResource Include="Resources\drawable\storeicon.png" />
+    <AndroidResource Include="Resources\drawable\theatreartsicon.png" />
+    <AndroidResource Include="Resources\drawable\eventicon.png" />
+    <AndroidResource Include="Resources\drawable\cricketicon.png" />
+    <AndroidResource Include="Resources\layout\splash.axml" />
+    <AndroidResource Include="Resources\layout\events.axml" />
+    <AndroidResource Include="Resources\layout\imageandtexts.xml" />
+    <AndroidResource Include="Resources\layout\eventcat.axml" />
+    <AndroidResource Include="Resources\layout\eventitems.axml" />
+    <AndroidResource Include="Resources\drawable\logb.xml" />
+    <AndroidResource Include="Resources\layout\splashscreen.axml" />
+    <AndroidResource Include="Resources\drawable\logbs.xml" />
+    <AndroidResource Include="Resources\drawable\logout.xml" />
+    <AndroidResource Include="Resources\layout\cart.axml" />
+    <AndroidResource Include="Resources\drawable\loifl123.jpg" />
+    <AndroidResource Include="Resources\drawable\loifl.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\kyazoonga-Rest\kyazoonga-Rest.csproj">
+      <Project>{5CAA7796-EBA9-4DE0-AFFC-027F9C83ADD1}</Project>
+      <Name>kyazoonga-Rest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable-hdpi\" />
+  </ItemGroup>
+</Project>

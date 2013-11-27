@@ -1,0 +1,32 @@
+{
+    "category_list": [
+        {
+            "id": "le_1",
+            "title": "Happy",
+            "venue": "chennai",
+            "image_url": "photo.img",
+            "rating": "5"
+        },
+        {
+            "id": "le_2",
+            "title": "Happy",
+            "venue": "chennai",
+            "image_url": "photo.img",
+            "rating": "5"
+        },
+        {
+            "id": "le_3",
+            "title": "Happy",
+            "venue": "chennai",
+            "image_url": "photo.img",
+            "rating": "5"
+        },
+        {
+            "id": "le_4",
+            "title": "Happy",
+            "venue": "chennai",
+            "image_url": "photo.img",
+            "rating": "5"
+        }
+    ]
+} 

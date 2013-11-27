@@ -1,0 +1,6 @@
+1) First we need to download Xamarin android software.
+2) we need to install in system.
+3) then we have to follow some some sample apps to understand Xamarin android.
+4) then we should have some knowledge in C#.
+5) then we have to creat app.
+6) based up on our recruitment we have to follow Xamarin android document to develope app. 

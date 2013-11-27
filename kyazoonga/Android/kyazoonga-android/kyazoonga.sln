@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kyazoonga-android", "kyazoonga-android\kyazoonga-android.csproj", "{66A7CA99-4837-4D3F-8C67-74AD3501A69B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kyazoonga-Rest", "kyazoonga-Rest\kyazoonga-Rest.csproj", "{5CAA7796-EBA9-4DE0-AFFC-027F9C83ADD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CAA7796-EBA9-4DE0-AFFC-027F9C83ADD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAA7796-EBA9-4DE0-AFFC-027F9C83ADD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAA7796-EBA9-4DE0-AFFC-027F9C83ADD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAA7796-EBA9-4DE0-AFFC-027F9C83ADD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A7CA99-4837-4D3F-8C67-74AD3501A69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A7CA99-4837-4D3F-8C67-74AD3501A69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A7CA99-4837-4D3F-8C67-74AD3501A69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A7CA99-4837-4D3F-8C67-74AD3501A69B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		BaseDirectory = kyazoonga-android
+		StartupItem = kyazoonga-android\kyazoonga-android.csproj
+	EndGlobalSection
+EndGlobal
